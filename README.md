@@ -1,15 +1,4 @@
-2) Interface utilisateur
-
-Faire une petite application de gestion de tickets de caisse (date,intitulé,montant) :
-- liste des tickets
-- création
-- modification
-- suppression
-- total par mois
-- total général
-* contrainte : Il ne peut y avoir 2 tickets avec la même date
-
-Projet Vite
+## Projet Vite
 
 Ce projet utilise Vite, un bundler rapide pour le développement web moderne.
 
@@ -55,3 +44,14 @@ Scripts disponibles
 npm run dev : Lance le serveur de développement.
 npm run build : Crée une version optimisée pour la production.
 npm run preview : Teste la version de production localement.
+
+2) Interface utilisateur
+
+Faire une petite application de gestion de tickets de caisse (date,intitulé,montant) :
+- liste des tickets
+- création
+- modification
+- suppression
+- total par mois
+- total général
+* contrainte : Il ne peut y avoir 2 tickets avec la même date
