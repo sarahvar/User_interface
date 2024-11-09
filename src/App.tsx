@@ -19,8 +19,8 @@ const App: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Check for duplicate date
-    if (tickets.some(ticket => ticket.date === date)) {
+    // Only check for duplicate date if it's a new ticket (not editing an existing one)
+    if (editingIndex === null && tickets.some(ticket => ticket.date === date)) {
       alert('A ticket with this date already exists.');
       return;
     }
