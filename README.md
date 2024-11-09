@@ -10,6 +10,7 @@ Faire une petite application de gestion de tickets de caisse (date,intitulé,mon
 * contrainte : Il ne peut y avoir 2 tickets avec la même date
 
 Projet Vite
+
 Ce projet utilise Vite, un bundler rapide pour le développement web moderne.
 
 Prérequis
@@ -36,7 +37,7 @@ Pour lancer l'application en mode développement :
 bash
 Copier le code
 npm run dev
-Accédez ensuite à http://localhost:3000 dans votre navigateur.
+Accédez ensuite à http://localhost:5173 dans votre navigateur.
 
 Construction pour la production
 Pour créer une version optimisée du projet :
