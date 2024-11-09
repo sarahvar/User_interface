@@ -45,7 +45,7 @@ npm run dev : Lance le serveur de développement.
 npm run build : Crée une version optimisée pour la production.
 npm run preview : Teste la version de production localement.
 
-2) Interface utilisateur
+## 2) Interface utilisateur
 
 Faire une petite application de gestion de tickets de caisse (date,intitulé,montant) :
 - liste des tickets
